@@ -1,10 +1,10 @@
 import React from 'react'
-import UsestateLearn from './usestate/usestateLearn'
+import Counter from './usestate/Counter'
 
 function App() {
   return (
     <div>
-      <UsestateLearn />
+      <Counter />
     </div>
   )
 }

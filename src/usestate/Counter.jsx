@@ -1,13 +1,15 @@
 import React, { useState } from 'react'
 
-const UsestateLearn = () => {
+const Counter = () => {
   const [count,setCount] = useState(0);
   return (
     <div>
       <p>Count: {count}</p>
       <button onClick={()=>setCount(count+1)}>Increament</button>
+      <button onClick={()=>setCount(count-1)}>Decrement</button>
+      
     </div>
   )
 }
 
-export default UsestateLearn
+export default Counter
